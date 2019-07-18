@@ -1,0 +1,3 @@
+This file was added in order to commit this directory to git
+
+Please delete this file, and place in this directory a flow workspace directory containing the data to be analyzed
