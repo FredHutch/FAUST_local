@@ -50,8 +50,7 @@ dataset_file_path <- directories[1]
 
 gating_set <- load_gs(dataset_file_path)
 
-# ???
-active_channels_in <- markernames(gating_set)[-1L]
+active_channels_in <- markernames(gating_set)
 
 # Select the channel boundaries
 channel_bounds_in <- matrix(0, nrow=2, ncol=length(active_channels_in))
