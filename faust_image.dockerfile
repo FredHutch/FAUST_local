@@ -4,7 +4,11 @@ FROM r-base:3.6.1
 RUN apt-get update \
     && apt-get install --yes libcurl4-openssl-dev \
                              libssl-dev \
-                             libxml2-dev
+                             libxml2-dev \
+                             python3.7 \
+                             python3-pip \
+                             python3-setuptools \
+                             python3-dev
 
 # Install `configr` to support user configurations for FAUST
 RUN R -e "install.packages('configr', repos='https://cloud.r-project.org/')"
