@@ -1,1 +1,0 @@
-docker build -t faust-local --file faust_image.dockerfile .
